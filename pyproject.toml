@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yash-streamlit-framework"
+version = "0.1.0"
+description = "A custom Streamlit alternative built with Python, FastAPI, and WebSockets"
+readme = "README.md"
+authors = [{ name = "Yashwanth" }]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "websockets"
+]
